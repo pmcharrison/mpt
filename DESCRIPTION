@@ -5,6 +5,6 @@ Version: 0.0.1
 Author: Peter M. C. Harrison
 Maintainer: Peter M. C. Harrison <pmc.harrison@gmail.com>
 Description: Implementation of the Mistuning Perception Test of Larrouy-Maestri, Harrison, and Mullensiefen (in prep.)
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
