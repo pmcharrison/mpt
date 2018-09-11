@@ -1,15 +1,15 @@
 #' @export
-mdt <- function(num_items = 20L,
+mpt <- function(num_items = 30L,
                 take_training = TRUE,
-                label = "MDT",
-                feedback = mdt.feedback.no_score(),
+                label = "MPT",
+                feedback = mpt.feedback.no_score(),
                 audio_dir = "http://media.gold-msi.org/test_materials/MPT/v1-1/audio",
                 training_dir = "http://media.gold-msi.org/test_materials/MPT/training",
                 next_item.criterion = "bOpt",
                 next_item.estimator = "WL",
                 final_ability.estimator = "WL",
                 constrain_answers = FALSE,
-                dict = mdt::mdt_dict) {
+                dict = mpt::mpt_dict) {
   stopifnot(is.scalar.character(label), is.scalar.numeric(num_items),
             is.scalar.logical(take_training), is.scalar.character(training_dir),
             psychTestR::is.timeline(feedback) ||

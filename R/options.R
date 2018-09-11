@@ -8,7 +8,6 @@ mdt.options <- function(next_item.criterion,
     next_item.estimator = next_item.estimator,
     final_ability.estimator = final_ability.estimator,
     constrain_answers = constrain_answers,
-    avoid_duplicates = "original_melody",
-    eligible_first_items = which(item_bank$item_index == 1)
+    avoid_duplicates = "song"
   )
 }

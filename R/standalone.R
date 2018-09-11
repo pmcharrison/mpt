@@ -1,14 +1,14 @@
 #' @export
-standalone_mdt <- function(num_items = 20L,
+standalone_mpt <- function(num_items = 30,
                            take_training = TRUE,
-                           feedback = mdt::mdt.feedback.no_score(),
-                           title = "Melody discrimination test",
+                           feedback = mpt::mpt.feedback.no_score(),
+                           title = "Mistuning perception test",
                            admin_password = "replace-with-secure-password",
                            researcher_email = "p.m.c.harrison@qmul.ac.uk",
-                           languages = mdt_languages()) {
+                           languages = mpt_languages()) {
   elts <- c(
     psychTestR::get_p_id(),
-    mdt::mdt(num_items = num_items,
+    mpt::mpt(num_items = num_items,
              take_training = take_training,
              feedback = feedback),
     psychTestR::elt_save_results_to_disk(complete = TRUE),
@@ -22,9 +22,9 @@ standalone_mdt <- function(num_items = 20L,
 
   psychTestR::make_test(
     elts,
-    opt = psychTestR::pt_options(title = title,
-                                 admin_password = admin_password,
-                                 researcher_email = researcher_email,
-                                 demo = FALSE,
-                                 languages = languages))
+    opt = psychTestR::test_options(title = title,
+                                   admin_password = admin_password,
+                                   researcher_email = researcher_email,
+                                   demo = FALSE,
+                                   languages = languages))
 }
