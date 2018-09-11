@@ -5,7 +5,8 @@ standalone_mpt <- function(num_items = 30,
                            title = "Mistuning perception test",
                            admin_password = "replace-with-secure-password",
                            researcher_email = "p.m.c.harrison@qmul.ac.uk",
-                           languages = mpt_languages()) {
+                           languages = mpt_languages(),
+                           dict = mpt::mpt_dict) {
   elts <- c(
     psychTestR::get_p_id(),
     mpt::mpt(num_items = num_items,

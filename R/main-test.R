@@ -9,7 +9,7 @@ main_test <- function(label, audio_dir, num_items,
     item_bank = item_bank,
     show_item = show_item(audio_dir),
     stopping_rule = psychTestRCAT::stopping_rule.num_items(n = num_items),
-    opt = mdt.options(next_item.criterion = next_item.criterion,
+    opt = mpt.options(next_item.criterion = next_item.criterion,
                       next_item.estimator = next_item.estimator,
                       final_ability.estimator = final_ability.estimator,
                       constrain_answers = constrain_answers,
@@ -41,7 +41,12 @@ get_admin_ui <- function(item) {
                  "answer",
                  "song",
                  "abs_mistuning",
-                 "mistuning_direction")]
+                 "mistuning_direction",
+                 "ranef_song_Intercept",
+                 "ranef_song_dummymistuning_direction",
+                 "difficulty_sans_ranef",
+                 "difficulty_with_ranef",
+                 "file")]
   names(df) <- plyr::revalue(
     names(df),
     c(
@@ -49,7 +54,12 @@ get_admin_ui <- function(item) {
       answer = "Correct answer",
       song = "Song",
       abs_mistuning = "Mistuning amount (cents)",
-      mistuning_direction = "Mistuning direction"
+      mistuning_direction = "Mistuning direction",
+      ranef_song_Intercept = "Song random intercept (higher -> harder) (GLMM)",
+      ranef_song_dummymistuning_direction = "Song random slope (higher -> harder when sharp) (GLMM)",
+      difficulty_sans_ranef = "Difficulty without random effects (IRT)",
+      difficulty_with_ranef = "Difficulty with random effects (IRT)",
+      file = "File name"
     ))
   tab <- htmltools::tags$table(
     lapply(seq_along(df),

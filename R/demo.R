@@ -5,7 +5,7 @@ demo_mpt <- function(num_items = 30L,
                      admin_password = "demo",
                      researcher_email = "p.m.c.harrison@qmul.ac.uk",
                      languages = mpt_languages(),
-                     dict = mdt::mpt_dict) {
+                     dict = mpt::mpt_dict) {
   elts <- c(
     mpt::mpt(num_items = num_items,
              take_training = take_training,

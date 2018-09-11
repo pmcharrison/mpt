@@ -6,14 +6,14 @@ AMPT_0004_I_0001_1,"In diesem Test werden dir zwei Versionen desselben Musik-Aus
 AMPT_0005_I_0001_1,**Beispiel Frage 1/2**\\\\In welcher Version klingt die Gesangstimme **falsch** (zu hoch oder zu tief)?,**Example question 1/2**\\\\Which version was **out of tune**?
 AMPT_0005_R_0001_1,Erste,First
 AMPT_0005_R_0002_1,Zweite,Second
-AMPT_0006_I_0001_1,"**Leider falsch.**\\\\Klicke auf 'Weiter', um ein anderes Beispiel zu versuchen.",**Incorrect!**\\\\Press 'Continue' to try another example.
-AMPT_0007_I_0001_1,"**Richtig!**\\Klicke auf 'Weiter', um ein anderes Beispiel zu versuchen.",**Correct!**\\Press 'Continue' to try another example.
+AMPT_0006_I_0001_1,"**Leider falsch.**",**Incorrect!**
+AMPT_0007_I_0001_1,"**Richtig!**",**Correct!**
 AMPT_0008_I_0001_1,**Beispiel Frage 2/2**\\\\Welche Version war **falsch**?,**Example question 2/2**\\\\Which version was **out of tune**?
 AMPT_0009_I_0001_1,**Richtig!**,**Correct!**
-AMPT_0010_I_0001_1,"**Leider falsch.**\\Klicke auf 'Zurück', um die Anweisungen zu lesen und die Beispiele noch einmal zu versuchen oder klicke auf 'Weiter', um mit dem Haupttest fortzufahren.","**Incorrect!**\\Press 'Go back' to read the instructions and try the examples again, or press 'Continue' to continue to the main test."
-AMPT_0011_I_0001_1,"**Nun beginnt der Haupttest, in dem deine Ergebnisse gespeichert werden.**\\Du wirst ab jetzt keine Rückmeldung mehr bekommen. Viel Erfolg!
-","**You are about to start the main test, where your results will be recorded.**\\You won't receive any feedback for this stage. Good luck!"
-AMPT_0012_I_0001_1,**Frage {{num_question}} von {{test_length}}**,Question {{num_question}} out of {{test_length}}
+AMPT_0010_I_0001_1,"Klicke auf 'Zurück', um die Anweisungen zu lesen und die Beispiele noch einmal zu versuchen oder klicke auf 'Weiter', um mit dem Haupttest fortzufahren.","Press 'Go back' to read the instructions and try the examples again, or press 'Continue' to continue to the main test."
+AMPT_0011_I_0001_1,"**Nun beginnt der Haupttest, in dem deine Ergebnisse gespeichert werden.**\\Viel Erfolg!
+","**You are about to start the main test, where your results will be recorded.**\\Good luck!"
+AMPT_0012_I_0001_1,**Frage {{num_question}} von {{test_length}}**,**Question {{num_question}} out of {{test_length}}**
 AMPT_0013_I_0001_1,"Welche Version war **falsch**?\\Wenn du nicht sicher bist, dann entscheide aus dem Bauch heraus.","Which version was **out of tune**?\\If you don't know, give your best guess!"
 AMPT_0014_I_0001_1,"Du hast den Wahrnehmungstest geschafft.\\Unten siehst du dein Endergebnis im Vergleich zu Anderen, die am Test teilgenommen haben.","You completed the tuning perception test!\\Your final score is plotted below, with reference to the general population:"
 AMPT_0015_I_0001_1,Weiter,Continue

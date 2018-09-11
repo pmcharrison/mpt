@@ -11,12 +11,15 @@ mpt <- function(num_items = 30L,
                 constrain_answers = FALSE,
                 dict = mpt::mpt_dict) {
   stopifnot(is.scalar.character(label), is.scalar.numeric(num_items),
-            is.scalar.logical(take_training), is.scalar.character(training_dir),
+            is.scalar.logical(take_training),
+            is.scalar.character(audio_dir),
+            is.scalar.character(training_dir),
             psychTestR::is.timeline(feedback) ||
               is.list(feedback) ||
               psychTestR::is.test_element(feedback) ||
               is.null(feedback))
-  media_dir <- gsub("/$", "", media_dir)
+  audio_dir <- gsub("/$", "", audio_dir)
+  training_dir <- gsub("/$", "", training_dir)
 
   psychTestR::new_timeline({
     c(

@@ -1,4 +1,4 @@
 library(testthat)
-library(mdt)
+library(mpt)
 
-test_check("mdt")
+test_check("mpt")

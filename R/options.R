@@ -1,4 +1,4 @@
-mdt.options <- function(next_item.criterion,
+mpt.options <- function(next_item.criterion,
                         next_item.estimator,
                         final_ability.estimator,
                         constrain_answers,

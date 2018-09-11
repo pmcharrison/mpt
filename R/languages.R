@@ -1,4 +1,4 @@
 #' @export
-mdt_languages <- function() {
+mpt_languages <- function() {
   c("EN", "DE")
 }
