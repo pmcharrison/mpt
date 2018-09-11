@@ -15,3 +15,4 @@ Imports:
 Suggests: 
     codetools,
     devtools (>= 1.13.6)
+Remotes: pmcharrison/psychTestR, pmcharrison/psychTestRCAT
