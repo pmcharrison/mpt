@@ -8,7 +8,11 @@ standalone_mpt <- function(num_items = 30,
                            languages = mpt_languages(),
                            dict = mpt::mpt_dict) {
   elts <- c(
-    psychTestR::get_p_id(),
+    psychTestR::new_timeline(
+      psychTestR::get_p_id(prompt = psychTestR::i18n("enter_p_id"),
+                           button_text = psychTestR::i18n("AMPT_0015_I_0001_1")),
+      dict = dict
+    ),
     mpt::mpt(num_items = num_items,
              take_training = take_training,
              feedback = feedback),
