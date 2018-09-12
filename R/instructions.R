@@ -30,7 +30,7 @@ instructions <- function(training_dir) {
       )),
     psychTestR::one_button_page(psychTestR::i18n(
       "AMPT_0011_I_0001_1"
-    ))
+    ), button_text = psychTestR::i18n("AMPT_0015_I_0001_1"))
   )
 }
 

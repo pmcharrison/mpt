@@ -17,5 +17,6 @@ practice <- function(training_dir) {
         psychTestR::reactive_page(function(answer, ...) {
           psychTestR::one_button_page(shiny::div(
             shiny::p(shiny::HTML(psychTestR::i18n(
-              if (answer == x$answer) "AMPT_0007_I_0001_1" else "AMPT_0006_I_0001_1")))))
+              if (answer == x$answer) "AMPT_0007_I_0001_1" else "AMPT_0006_I_0001_1")))),
+            button_text = psychTestR::i18n("AMPT_0015_I_0001_1"))
         }))}))}
