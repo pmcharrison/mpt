@@ -3,9 +3,12 @@ demo_mpt <- function(num_items = 30L,
                      take_training = TRUE,
                      feedback = psychTestRCAT::cat.feedback.graph("MPT"),
                      admin_password = "demo",
-                     researcher_email = "p.m.c.harrison@qmul.ac.uk",
-                     dict = mpt::mpt_dict) {
+                     researcher_email = "p.m.c.harrison@qmul.ac.uk") {
+  dict <- mpt::mpt_dict
   elts <- c(
+    psychTestR::new_timeline(psychTestR::one_button_page(
+      psychTestR::i18n("demo_intro")
+    ), dict = dict),
     mpt::mpt(num_items = num_items,
              take_training = take_training,
              feedback = feedback,
