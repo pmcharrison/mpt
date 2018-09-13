@@ -12,7 +12,7 @@ We hope to publish a paper describing the creation of the MPT in the near future
 In the meanwhile, you can cite this repository as follows:
 
 > Larrouy-Maestri, P., Harrison, P. M. C., & Müllensiefen, D. (2018).
-Mistuning Perception Test, psychTestR implementation.
+Mistuning Perception Test, psychTestR implementation. Zenodo.
 https://doi.org/10.5281/zenodo.1415363
 
 We also advise mentioning the software versions you used,
