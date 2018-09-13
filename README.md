@@ -2,10 +2,9 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1415363.svg)](https://doi.org/10.5281/zenodo.1415363)
 
-Try the MPT here! http://shiny.pmcharrison.com/mpt-demo
+The MPT is an adaptive test of mistuning perception abilities.
 
-- Research by Pauline Larrouy-Maestri, Peter M. C. Harrison, Daniel Müllensiefen
-- Implementation by Peter M. C. Harrison
+We invite you to try the MPT [here!](http://shiny.pmcharrison.com/mpt-demo)
 
 ## Citation
 
