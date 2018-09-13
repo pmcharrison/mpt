@@ -1,6 +1,6 @@
 # Mistuning Perception Test (MPT)
 
-<!-- Try the MDT here! http://shiny.pmcharrison.com/mdt-demo -->
+Try the MPT here! http://shiny.pmcharrison.com/mpt-demo
 
 *Authors*: Pauline Larrouy-Maestri, Peter M. C. Harrison, Daniel Müllensiefen
 
