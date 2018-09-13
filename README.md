@@ -4,16 +4,11 @@
 
 Try the MPT here! http://shiny.pmcharrison.com/mpt-demo
 
-*Authors*: Pauline Larrouy-Maestri, Peter M. C. Harrison, Daniel Müllensiefen
+- Research by Pauline Larrouy-Maestri, Peter M. C. Harrison, Daniel Müllensiefen
+- Implementation by Peter M. C. Harrison
 
 <!-- This implementation can be cited using the following permanent link: -->
 <!-- https://doi.org/10.5281/zenodo.1300951 -->
-
-The demo version of the MPT
-(http://shiny.pmcharrison.com/mpt-demo)
-gives you feedback after each question,
-but in real experiments this feedback is disabled.
-For using the test in your own studies, we recommend local installation (see below).
 
 ## Installation instructions (local use)
 
