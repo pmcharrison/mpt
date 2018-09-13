@@ -7,8 +7,27 @@ Try the MPT here! http://shiny.pmcharrison.com/mpt-demo
 - Research by Pauline Larrouy-Maestri, Peter M. C. Harrison, Daniel Müllensiefen
 - Implementation by Peter M. C. Harrison
 
-<!-- This implementation can be cited using the following permanent link: -->
-<!-- https://doi.org/10.5281/zenodo.1300951 -->
+## Citation
+
+We hope to publish a paper describing the creation of the MPT in the near future.
+In the meanwhile, you can cite this repository as follows:
+
+> Larrouy-Maestri, P., Harrison, P. M. C., & Müllensiefen, D. (2018).
+Mistuning Perception Test, psychTestR implementation.
+https://doi.org/10.5281/zenodo.1415363
+
+We also advise mentioning the software versions you used,
+in particular the versions of the `mpt`, `psychTestR`, and `psychTestRCAT` packages.
+You can find these version numbers from R by running the following commands:
+
+``` r
+library(cabat)
+library(psychTestR)
+library(psychTestRCAT)
+if (!require(devtools)) install.packages("devtools")
+x <- devtools::session_info()
+x$packages[x$packages$package %in% c("mpt", "psychTestR", "psychTestRCAT"), ]
+```
 
 ## Installation instructions (local use)
 
