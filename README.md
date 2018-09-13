@@ -1,5 +1,7 @@
 # Mistuning Perception Test (MPT)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1415363.svg)](https://doi.org/10.5281/zenodo.1415363)
+
 Try the MPT here! http://shiny.pmcharrison.com/mpt-demo
 
 *Authors*: Pauline Larrouy-Maestri, Peter M. C. Harrison, Daniel Müllensiefen
