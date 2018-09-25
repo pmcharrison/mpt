@@ -9,8 +9,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    psychTestRCAT (>= 1.0.2),
-    psychTestR (>= 2.0.0),
+    psychTestRCAT (>= 1.1.0),
+    psychTestR (>= 2.0.2),
     shiny (>= 1.1.0)
 Suggests: 
     codetools,
