@@ -1,3 +1,5 @@
+# mpt 0.3.0
+
 * The package is now properly documented.
 * Change to default arguments for `mpt()`, `demo_mpt()`,
 and `standalone_mpt()`: 
