@@ -1,18 +1,23 @@
 Package: mpt
 Type: Package
 Title: Mistuning Perception Test
-Version: 0.2.0
+Version: 0.3.0
 Author: Peter M. C. Harrison
 Maintainer: Peter M. C. Harrison <pmc.harrison@gmail.com>
 Description: Implementation of the Mistuning Perception Test of Larrouy-Maestri, Harrison, and Mullensiefen (in prep.)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: 
-    psychTestRCAT (>= 1.0.2),
-    psychTestR (>= 2.0.0),
-    shiny (>= 1.1.0)
-Suggests: 
+Depends: R (>= 3.5.0)
+Imports:
+    psychTestRCAT (>= 1.1.0),
+    psychTestR (>= 2.0.2),
+    shiny (>= 1.1.0),
+    methods,
+    htmltools (>= 0.3.6),
+    plyr (>= 1.8.4)
+Suggests:
     codetools,
     devtools (>= 1.13.6)
 Remotes: pmcharrison/psychTestR, pmcharrison/psychTestRCAT
+RoxygenNote: 6.1.0
