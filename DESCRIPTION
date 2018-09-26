@@ -8,7 +8,7 @@ Description: Implementation of the Mistuning Perception Test of Larrouy-Maestri,
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.3.0)
 Imports:
     psychTestRCAT (>= 1.1.0),
     psychTestR (>= 2.0.2),
