@@ -20,7 +20,7 @@ in particular the versions of the `mpt`, `psychTestR`, and `psychTestRCAT` packa
 You can find these version numbers from R by running the following commands:
 
 ``` r
-library(cabat)
+library(mpt)
 library(psychTestR)
 library(psychTestRCAT)
 if (!require(devtools)) install.packages("devtools")
