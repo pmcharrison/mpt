@@ -8,8 +8,11 @@ We invite you to try the MPT [here!](http://shiny.pmcharrison.com/mpt-demo)
 
 ## Citation
 
-We hope to publish a paper describing the creation of the MPT in the near future.
-In the meanwhile, you can cite this repository as follows:
+The MPT is introduced in the following paper:
+
+> Larrouy-Maestri, P., Harrison, P. M. C., & Müllensiefen, D. (2019). The mistuning perception test: A new measurement instrument. Behavior Research Methods, 51(2), 663–675. https://doi.org/10.3758/s13428-019-01225-1
+
+You can also cite this specific implementation here:
 
 > Larrouy-Maestri, P., Harrison, P. M. C., & Müllensiefen, D. (2018).
 Mistuning Perception Test, psychTestR implementation. Zenodo.
@@ -92,6 +95,39 @@ You can select one of these languages by passing a language code as
 an argument to `standalone_mpt()`, e.g. `standalone_mpt(languages = "DE")`,
 or alternatively by passing it as a URL parameter to the test browser,
 eg. http://127.0.0.1:4412/?language=DE (note that the `p_id` argument must be empty).
+
+
+### Results
+
+The main output from the MPT is an `ability` score,
+corresponding to the ability estimate for the participant.
+It is computed from the underlying item response model and ranges approximately from -4 to +4.
+A secondary output is an `ability_sem` score, 
+corresponding to the standard error of measurement for the ability estimate;
+again, it is computed from the underlying IRT model.
+For most applications you would only use the `ability` value,
+unless using a statistical analysis technique that allows you to specify measurement error explicitly.
+For more information about item response theory, see the [Wikipedia](https://en.wikipedia.org/wiki/Item_response_theory) article;
+for more information about MPT scores, see
+[Larrouy-Maestri et al. (2019)](https://doi.org/10.3758/s13428-019-01225-1).
+
+psychTestR provides several ways of retrieving test results (see http://psychtestr.com/).
+Most are accessed through the test's admin panel.
+
+* If you are just interested in the participants' final scores,
+the easiest solution is usually to download the results in CSV format from the admin panel.
+* If you are interested in trial-by-trial results, you can run the command
+`compile_trial_by_trial_results()` from the R console
+(having loaded the MPT package using `library(mpt)`).
+Type `?compile_trial_by_trial_results()` for more details.
+* If you want still more detail, you can examine the individual RDS output files using `readRDS()`. 
+Detailed results are stored as the 'metadata' attribute for the ability field. 
+You can access it something like this: 
+
+``` r
+x <- readRDS("output/results/your-output-file.rds")
+attr(x$MPT$ability, "metadata")
+```
 
 ## Installation instructions (Shiny Server)
 
