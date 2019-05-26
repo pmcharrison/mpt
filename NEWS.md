@@ -1,3 +1,5 @@
+* Researcher email now defaults to NULL in standalone_mpt.
+
 # mpt 0.4.0
 
 * Adding Russian support

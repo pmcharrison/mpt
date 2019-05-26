@@ -17,7 +17,7 @@
 #' @export
 standalone_mpt <- function(title = "Mistuning perception test",
                            admin_password = "replace-with-secure-password",
-                           researcher_email = "p.m.c.harrison@qmul.ac.uk",
+                           researcher_email = NULL,
                            languages = mpt_languages(),
                            dict = mpt::mpt_dict,
                            ...) {
