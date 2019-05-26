@@ -96,7 +96,7 @@ You can select one of these languages by passing a language code as
 an argument to `standalone_mpt()`, e.g. `standalone_mpt(languages = "DE")`,
 or alternatively by passing it as a URL parameter to the test browser,
 eg. http://127.0.0.1:4412/?language=DE (note that the `p_id` argument must be empty).
-
+Please note that the demo version of the test (`demo_mpt`) only supports English.
 
 ### Results
 
