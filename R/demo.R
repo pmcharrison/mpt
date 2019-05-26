@@ -23,7 +23,8 @@ demo_mpt <- function(num_items = 10L,
                      ...) {
   elts <- c(
     psychTestR::new_timeline(psychTestR::one_button_page(
-      psychTestR::i18n("demo_intro")
+      psychTestR::i18n("demo_intro"),
+      button_text = psychTestR::i18n("AMPT_0015_I_0001_1")
     ), dict = dict),
     mpt::mpt(num_items = num_items,
              feedback = feedback,
