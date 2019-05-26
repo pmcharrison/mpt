@@ -1,3 +1,5 @@
+# mpt 0.5.0
+
 * Updated to latest psychTestR dictionary version.
 * Researcher email now defaults to NULL in standalone_mpt.
 
