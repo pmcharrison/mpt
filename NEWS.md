@@ -1,3 +1,5 @@
+* Adding Russian support
+
 # mpt 0.3.0
 
 * The package is now properly documented.
