@@ -6,8 +6,8 @@
 \usage{
 standalone_mpt(title = "Mistuning perception test",
   admin_password = "replace-with-secure-password",
-  researcher_email = "p.m.c.harrison@qmul.ac.uk",
-  languages = mpt_languages(), dict = mpt::mpt_dict, ...)
+  researcher_email = NULL, languages = mpt_languages(),
+  dict = mpt::mpt_dict, ...)
 }
 \arguments{
 \item{title}{(Scalar character) Title to display during testing.}

@@ -1,3 +1,7 @@
+* Added acknowledgements.
+* Added French and Russian to the list of default languages.
+* Minor fixes to address build checks.
+
 # mpt 0.5.0
 
 * Updated to latest psychTestR dictionary version.

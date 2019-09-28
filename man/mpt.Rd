@@ -23,6 +23,12 @@ mpt(num_items = 30L, take_training = TRUE, label = "MPT",
 \item{feedback}{(Function) Defines the feedback to give the participant
 at the end of the test.}
 
+\item{audio_dir}{(Character scalar) File path to the directory
+hosting the audio (typically a publicly accessible web directory).}
+
+\item{training_dir}{(Character scalar) File path to the directory
+hosting the training items' audio (typically a publicly accessible web directory).}
+
 \item{next_item.criterion}{(Character scalar)
 Criterion for selecting successive items in the adaptive test.
 See the \code{criterion} argument in \code{\link[catR]{nextItem}} for possible values.
@@ -47,7 +53,7 @@ See the \code{priorDist} argument in \code{\link[catR]{thetaEst}} for possible v
 Parameters for the prior distribution;
 see the \code{priorPar} argument in \code{\link[catR]{thetaEst}} for details.
 Ignored if \code{next_item.estimator} is not a Bayesian method.
-The dfeault is \code{c(0, 1)}.}
+The default is \code{c(0, 1)}.}
 
 \item{final_ability.estimator}{Estimation method used for the final ability estimate.
 See the \code{method} argument in \code{\link[catR]{thetaEst}} for possible values.
@@ -62,12 +68,6 @@ correct answers are distributed as evenly as possible over the course of the tes
 We recommend leaving this option disabled.}
 
 \item{dict}{The psychTestR dictionary used for internationalisation.}
-
-\item{item_bank_audio}{(Character scalar) File path to the directory
-hosting the item bank audio (typically a publicly accessible web directory).}
-
-\item{practice_items}{(Character scalar) File path to the directory
-hosting the practice items audio (typically a publicly accessible web directory).}
 }
 \description{
 This function defines a MPT module for incorporation into a
