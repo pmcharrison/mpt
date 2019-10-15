@@ -1,3 +1,8 @@
+# mpt 0.6.0
+
+* Added Danish dictionary, thanks Cecilie Møller and Niels Christian-Hansen!
+* Removed deprecated psychTestR internal function.
+
 # mpt 0.5.1
 
 * Added acknowledgements.

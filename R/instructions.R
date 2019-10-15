@@ -18,7 +18,7 @@ instructions <- function(training_dir) {
     psychTestR::code_block(function(state, ...) {
       psychTestR::set_local("do_intro", TRUE, state)
     }),
-    psychTestR::loop_while(
+    psychTestR::while_loop(
       test = function(state, ...) psychTestR::get_local("do_intro", state),
       logic = c(
         info_page("AMPT_0001_I_0001_1"),
