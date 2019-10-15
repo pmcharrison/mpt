@@ -39,6 +39,7 @@ into new languages:
 - Pauline Larrouy-Maestri (French)
 - Dania Hollemann, Klaus Frieler, Daniel Müllensiefen (German)
 - Elina Tsigeman and Maxim Likhanov (Russian)
+- Cecilie Møller and Niels Christian-Hansen (Danish)
 
 ## Installation instructions (local use)
 
