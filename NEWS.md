@@ -1,3 +1,5 @@
+# mpt 0.7.0
+
 * Improved the instructions for clarity (thanks Cecilie Møller!) - 
 now it says "Click 'Continue' to try some examples" before the training
 examples, making it clear that the real test hasn't started yet.
