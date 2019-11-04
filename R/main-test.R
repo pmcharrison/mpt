@@ -35,7 +35,8 @@ show_item <- function(audio_dir) {
       admin_ui = get_admin_ui(item),
       save_answer = FALSE,
       wait = TRUE,
-      arrange_choices_vertically = FALSE
+      arrange_choices_vertically = FALSE,
+      btn_play_prompt = psychTestR::i18n("click_here_to_play")
     )
   }
 }

@@ -9,7 +9,8 @@ audio_ex_page <- function(prompt_id, url) {
     prompt = psychTestR::i18n(prompt_id),
     choices = psychTestR::i18n("AMPT_0015_I_0001_1"),
     url = url,
-    save_answer = FALSE
+    save_answer = FALSE,
+    btn_play_prompt = psychTestR::i18n("click_here_to_play")
   )
 }
 

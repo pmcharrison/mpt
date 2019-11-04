@@ -12,7 +12,8 @@ practice <- function(training_dir) {
           choices = get_choices(),
           labels = get_labels(),
           arrange_choices_vertically = FALSE,
-          save_answer = FALSE
+          save_answer = FALSE,
+          btn_play_prompt = psychTestR::i18n("click_here_to_play")
         ),
         psychTestR::reactive_page(function(answer, ...) {
           psychTestR::one_button_page(shiny::div(
