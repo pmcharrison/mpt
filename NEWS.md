@@ -1,3 +1,8 @@
+* Improved the instructions for clarity (thanks Cecilie Møller!) - 
+now it says "Click 'Continue' to try some examples" before the training
+examples, making it clear that the real test hasn't started yet.
+* Minor Danish updates.
+
 # mpt 0.6.0
 
 * Added Danish dictionary, thanks Cecilie Møller and Niels Christian-Hansen!
