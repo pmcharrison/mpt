@@ -1,3 +1,5 @@
+* Internationalised 'click here to play' text.
+
 # mpt 0.7.0
 
 * Improved the instructions for clarity (thanks Cecilie Møller!) - 
