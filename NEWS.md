@@ -1,3 +1,7 @@
+# mpt 0.7.2
+
+Added 'DA' to list of supported languages.
+
 # mpt 0.7.1
 
 * Internationalised 'click here to play' text.
