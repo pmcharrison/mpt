@@ -1,3 +1,5 @@
+# mpt 0.7.3
+
 Switched audio from HTTP to HTTPS.
 
 # mpt 0.7.2
