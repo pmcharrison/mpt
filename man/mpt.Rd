@@ -6,8 +6,8 @@
 \usage{
 mpt(num_items = 30L, take_training = TRUE, label = "MPT",
   feedback = mpt.feedback.no_score(),
-  audio_dir = "http://media.gold-msi.org/test_materials/MPT/v1-1/audio",
-  training_dir = "http://media.gold-msi.org/test_materials/MPT/training",
+  audio_dir = "https://media.gold-msi.org/test_materials/MPT/v1-1/audio",
+  training_dir = "https://media.gold-msi.org/test_materials/MPT/training",
   next_item.criterion = "bOpt", next_item.estimator = "BM",
   next_item.prior_dist = "norm", next_item.prior_par = c(0, 1),
   final_ability.estimator = "WL", constrain_answers = FALSE,

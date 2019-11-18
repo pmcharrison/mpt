@@ -1,3 +1,5 @@
+Switched audio from HTTP to HTTPS.
+
 # mpt 0.7.2
 
 Added 'DA' to list of supported languages.
