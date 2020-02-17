@@ -15,8 +15,17 @@
 #'
 #' @param label (Character scalar) Label to give the MPT results in the output file.
 #'
-#' @param feedback (Function) Defines the feedback to give the participant
-#' at the end of the test.
+#' @param feedback Defines the feedback to give the participant
+#' at the end of the test. By default no feedback is given.
+#' This can be a timeline segment (as created by \code{\link[psychTestRCAT]{new_timeline}}),
+#' a test element (as created by e.g. \code{\link[psychTestRCAT]{page}}),
+#' or a list of test elements.
+#' The following built-in choices are available
+#' see function-level documentation for details):
+#' - \code{\link{mpt.feedback.no_score}}
+#' - \code{\link[psychTestRCAT]{cat.feedback.graph}}
+#' - \code{\link[psychTestRCAT]{cat.feedback.irt}}
+#' - \code{\link[psychTestRCAT]{cat.feedback.iq}}
 #'
 #' @param audio_dir (Character scalar) File path to the directory
 #' hosting the audio (typically a publicly accessible web directory).
@@ -95,8 +104,8 @@ mpt <- function(num_items = 30L,
   audio_dir <- gsub("/$", "", audio_dir)
   training_dir <- gsub("/$", "", training_dir)
 
-  psychTestR::new_timeline({
-    c(
+  psychTestR::join(psychTestR::new_timeline(
+    psychTestR::join(
       if (take_training) instructions(training_dir),
       main_test(label = label, audio_dir = audio_dir, num_items = num_items,
                 next_item.criterion = next_item.criterion,
@@ -104,8 +113,8 @@ mpt <- function(num_items = 30L,
                 next_item.prior_dist = next_item.prior_dist,
                 next_item.prior_par = next_item.prior_par,
                 final_ability.estimator = final_ability.estimator,
-                constrain_answers = constrain_answers),
-      feedback
-    )},
-    dict = dict)
+                constrain_answers = constrain_answers)
+    ), dict = dict),
+    feedback
+  )
 }

@@ -20,8 +20,17 @@ mpt(num_items = 30L, take_training = TRUE, label = "MPT",
 
 \item{label}{(Character scalar) Label to give the MPT results in the output file.}
 
-\item{feedback}{(Function) Defines the feedback to give the participant
-at the end of the test.}
+\item{feedback}{Defines the feedback to give the participant
+at the end of the test. By default no feedback is given.
+This can be a timeline segment (as created by \code{\link[psychTestRCAT]{new_timeline}}),
+a test element (as created by e.g. \code{\link[psychTestRCAT]{page}}),
+or a list of test elements.
+The following built-in choices are available
+see function-level documentation for details):
+- \code{\link{mpt.feedback.no_score}}
+- \code{\link[psychTestRCAT]{cat.feedback.graph}}
+- \code{\link[psychTestRCAT]{cat.feedback.irt}}
+- \code{\link[psychTestRCAT]{cat.feedback.iq}}}
 
 \item{audio_dir}{(Character scalar) File path to the directory
 hosting the audio (typically a publicly accessible web directory).}

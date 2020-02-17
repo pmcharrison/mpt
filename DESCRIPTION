@@ -10,7 +10,7 @@ Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.3.0)
 Imports:
-    psychTestRCAT (>= 1.5.1),
+    psychTestRCAT (>= 1.6.0),
     psychTestR (>= 2.8.0),
     shiny (>= 1.3.2),
     methods,

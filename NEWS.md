@@ -1,3 +1,5 @@
+* Extending feedback options.
+
 # mpt 0.7.3
 
 Switched audio from HTTP to HTTPS.
