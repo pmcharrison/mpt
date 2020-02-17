@@ -26,11 +26,13 @@ This can be a timeline segment (as created by \code{\link[psychTestR]{new_timeli
 a test element (as created by e.g. \code{\link[psychTestR]{page}}),
 or a list of test elements.
 The following built-in choices are available
-see function-level documentation for details):
-- \code{\link{mpt.feedback.no_score}}
-- \code{\link[psychTestRCAT]{cat.feedback.graph}}
-- \code{\link[psychTestRCAT]{cat.feedback.irt}}
-- \code{\link[psychTestRCAT]{cat.feedback.iq}}}
+(see function-level documentation for details):
+\itemize{
+\item \code{\link{mpt.feedback.no_score}}
+\item \code{\link[psychTestRCAT]{cat.feedback.graph}}
+\item \code{\link[psychTestRCAT]{cat.feedback.irt}}
+\item \code{\link[psychTestRCAT]{cat.feedback.iq}}
+}}
 
 \item{audio_dir}{(Character scalar) File path to the directory
 hosting the audio (typically a publicly accessible web directory).}

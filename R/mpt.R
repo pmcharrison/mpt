@@ -21,7 +21,7 @@
 #' a test element (as created by e.g. \code{\link[psychTestR]{page}}),
 #' or a list of test elements.
 #' The following built-in choices are available
-#' see function-level documentation for details):
+#' (see function-level documentation for details):
 #' - \code{\link{mpt.feedback.no_score}}
 #' - \code{\link[psychTestRCAT]{cat.feedback.graph}}
 #' - \code{\link[psychTestRCAT]{cat.feedback.irt}}
@@ -78,6 +78,8 @@
 #' ability estimation for item selection.
 #' However, subsequent versions of the package revert to Bayes modal
 #' ability estimation for item selection, consistent with the original MPT paper.
+#'
+#' @md
 #'
 #' @export
 mpt <- function(num_items = 30L,
