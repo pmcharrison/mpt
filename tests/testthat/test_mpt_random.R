@@ -55,11 +55,13 @@ for (i in sample(1:2, number_items, replace=TRUE)){
 app$expect_ui_text("You completed the tuning perception test! Next")
 app$click_next()
 
-# Results
-results <- app$get_results() %>% as.list()
-print(j)
-MPT_SEM[j] <<- results[["MPT"]][["ability_sem"]]
-MPT_ability[j] <<- results[["MPT"]][["ability"]]
+if (FALSE) {
+  # Results
+  results <- app$get_results() %>% as.list()
+  MPT_ability_sem <<- results[["MPT"]][["ability_sem"]]
+  MPT_ability <<- results[["MPT"]][["ability"]]
 
-print(paste("Standard error of measurement of MPT", MPT_SEM[j]))
+  print(paste("Standard error of measurement of MPT", MPI_ability_sem))
+}
+
 app$stop()
