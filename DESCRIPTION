@@ -21,4 +21,4 @@ Suggests:
     usethis (>= 1.5.0),
     testthat (>= 2.1.1)
 Remotes: pmcharrison/psychTestR, pmcharrison/psychTestRCAT
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
