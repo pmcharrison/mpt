@@ -4,11 +4,14 @@
 \alias{demo_mpt}
 \title{Demo MPT}
 \usage{
-demo_mpt(num_items = 10L,
+demo_mpt(
+  num_items = 10L,
   feedback = psychTestRCAT::cat.feedback.graph("MPT"),
   admin_password = "demo",
-  researcher_email = "p.m.c.harrison@qmul.ac.uk", dict = mpt::mpt_dict,
-  ...)
+  researcher_email = "p.m.c.harrison@qmul.ac.uk",
+  dict = mpt::mpt_dict,
+  ...
+)
 }
 \arguments{
 \item{num_items}{(Integer scalar) Number of items in the test.}

@@ -4,8 +4,11 @@
 \alias{compile_trial_by_trial_results}
 \title{Compile trial-by-trial results}
 \usage{
-compile_trial_by_trial_results(in_dir = "output/results",
-  label = "MPT", combine = TRUE)
+compile_trial_by_trial_results(
+  in_dir = "output/results",
+  label = "MPT",
+  combine = TRUE
+)
 }
 \arguments{
 \item{in_dir}{Results directory to process.}
