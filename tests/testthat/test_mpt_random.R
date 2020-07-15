@@ -61,7 +61,7 @@ if (FALSE) {
   MPT_ability_sem <<- results[["MPT"]][["ability_sem"]]
   MPT_ability <<- results[["MPT"]][["ability"]]
 
-  print(paste("Standard error of measurement of MPT", MPI_ability_sem))
+  print(paste("Standard error of measurement of MPT", MPT_ability_sem))
 }
 
 app$stop()
