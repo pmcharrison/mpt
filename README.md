@@ -40,6 +40,7 @@ into new languages:
 - Dania Hollemann, Klaus Frieler, Daniel Müllensiefen (German)
 - Elina Tsigeman and Maxim Likhanov (Russian)
 - Cecilie Møller and Niels Christian-Hansen (Danish)
+- Jochum van 't Hooft (Dutch)
 
 ## Installation instructions (local use)
 

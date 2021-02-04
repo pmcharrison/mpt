@@ -14,9 +14,12 @@ test_that("dictionary regression tests", {
       filter(as.data.frame(env$mpt_dict), ignore)
     })
     current <- filter(as.data.frame(mpt::mpt_dict), ignore)
-    for (l in c("key", languages)) {
+
+    for (l in tolower(c("key", languages))) {
+      names(old_1) <- tolower(old_1)
+      names(current) <- tolower(current)
       expect_equal(sanitise(old_1[[l]]),
-                   sanitise(current[[l]]))
+                   sanitise((current[[l]])))
     }
   }
 
@@ -26,4 +29,7 @@ test_that("dictionary regression tests", {
 
   test_dict("regression-tests/dictionaries/dict-nov-2019.rda",
             c("DE", "EN", "FR", "RU", "DA"))
+
+  test_dict("regression-tests/dictionaries/dict-feb-2021.rda",
+            c("DE", "EN", "FR", "RU", "DA", "NL"))
 })

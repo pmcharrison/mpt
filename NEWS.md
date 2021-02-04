@@ -1,3 +1,6 @@
+* Added Dutch support.
+* Removed old package startup message.
+
 # mpt 0.8.0
 
 * Extending feedback options.

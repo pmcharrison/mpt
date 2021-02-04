@@ -4,10 +4,14 @@
 \alias{standalone_mpt}
 \title{Standalone MPT}
 \usage{
-standalone_mpt(title = "Mistuning perception test",
+standalone_mpt(
+  title = "Mistuning perception test",
   admin_password = "replace-with-secure-password",
-  researcher_email = NULL, languages = mpt_languages(),
-  dict = mpt::mpt_dict, ...)
+  researcher_email = NULL,
+  languages = mpt_languages(),
+  dict = mpt::mpt_dict,
+  ...
+)
 }
 \arguments{
 \item{title}{(Scalar character) Title to display during testing.}

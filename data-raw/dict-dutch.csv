@@ -1,0 +1,31 @@
+ID,NL
+AMPT_0001_I_0001_1,Deze test meet uw onderscheidingsvermogen of een zangstem te hoog of te laag klinkt in verhouding tot de achtergrondmuziek. \\ U krijgt een aantal muziekfragmenten te horen. \\ In sommige fragmenten is de zangstem precies correct in relatie tot de achtergrondmuziek (zuiver). In andere fragmenten is de zangstem echter iets te hoog of te laag ten opzichte van de achtergrondmuziek (onzuiver). \\ Bepaal of de zangstem zuiver of onzuiver klinkt (d.w.z. te hoog of te laag). \\ Klik op 'Volgende' om een paar voorbeelden te beluisteren.
+AMPT_0002_I_0001_1,"**Voorbeeld - zuiver**\\\\ In dit
+voorbeeld is de zang zuiver in relatie tot achtergrondmuziek."
+AMPT_0003_I_0001_1,"**Voorbeeld - vals**\\\\ In dit
+voorbeeld is de zang onzuiver in relatie tot de achtergrondmuziek."
+AMPT_0004_I_0001_1,"In deze test worden twee versies
+van hetzelfde muziekfragment voor u afgespeeld. \\ In  de ene versie is de zang **zuiver**, in de andere versie **onzuiver** (te hoog of te laag) in relatie tot de achtergrondmuziek. Het is uw taak om te beslissen welke **onzuiver** was."
+AMPT_0005_I_0001_1,**Voorbeeldvraag 1/2**\\\\Welke versie was **onzuiver**?
+AMPT_0005_R_0001_1,Eerste
+AMPT_0005_R_0002_1,Tweede
+AMPT_0006_I_0001_1,"**Helaas, fout!**\\\\ Klik op
+ 'Volgende' om nog een voorbeeld te proberen."
+AMPT_0007_I_0001_1,**Goed!**\\ Klik op 'Volgende' om nog een voorbeeld te proberen.
+AMPT_0008_I_0001_1,**Voorbeeldvraag 2/2**\\\\Welke versie was **onzuiver**?
+AMPT_0009_I_0001_1,**Goed!**
+AMPT_0010_I_0001_1,"**Fout!**\\ Klik op 'Vorige' om de instructies opnieuw te lezen en de voorbeeldvragen te oefenen,\\ of klik op 'Volgende' om naar de hoofdtest te gaan."
+AMPT_0011_I_0001_1,**U begint nu met de hoofdtest waarvan de resultaten zullen worden opgeslagen.**\\ U ontvangt geen feedback meer. Veel succes!
+AMPT_0012_I_0001_1,"Vraag {{num_question}} van
+{{test_length}}"
+AMPT_0013_I_0001_1,"Welke versie was **onzuiver**?\\ Als u het antwoord niet weet, selecteer dan uw beste schatting. "
+AMPT_0014_I_0001_1,U heeft de toonwaarnemingstest afgerond! Hieronder ziet u uw eindresultaat in vergelijking met anderen die de test hebben gedaan.
+AMPT_0015_I_0001_1,Volgende
+AMPT_0016_I_0001_1,Vorige
+AMPT_0017_I_0001_1,U heeft de toonwaarnemingstest afgerond!
+enter_p_id,Vul uw ID in.
+results_have_been_saved,Uw resultaten zijn opgeslagen.
+you_may_close_browser,U mag het scherm sluiten.
+demo_intro,"Welkom bij de **toonwaarnemingstest**!\\Deze test past zich aan uw prestaties aan. Als u het goed doet, dan krijgt u moeilijkere items.\\Meestal is deze adaptieve procedure verborgen voor de deelnemer.  Voor deze demonstratie laten we echter uw hardloopvaardigheidsscore en bijbehorende moeilijkheidsgraad voor elke proef zien.
+"
+click_here_to_play,Klik hier om af te spelen
