@@ -1,6 +1,7 @@
 # Mistuning Perception Test (MPT)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1415363.svg)](https://doi.org/10.5281/zenodo.1415363)
+[![Travis build status](https://travis-ci.com/pmcharrison/mpt.svg?branch=master)](https://travis-ci.com/pmcharrison/mpt)
 
 The MPT is an adaptive test of mistuning perception abilities.
 
