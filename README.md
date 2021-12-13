@@ -42,6 +42,7 @@ into new languages:
 - Elina Tsigeman and Maxim Likhanov (Russian)
 - Cecilie Møller and Niels Christian-Hansen (Danish)
 - Jochum van 't Hooft (Dutch)
+- Elvira Brattico (Italian)
 
 ## Installation instructions (local use)
 
@@ -196,3 +197,18 @@ This makes the test better suited to testing with diverse participant groups
 - The MPT runs in your web browser.
 - By default, audio files are hosted online on our servers.
 The test therefore requires internet connectivity.
+
+## Adding new languages
+
+See `data-raw/dict-russian.csv` for an example of a foreign-language dictionary.
+Create a new dictionary for your new language following this format.
+Prepare a merge request for submitting your changes, 
+perhaps using a fork of the original repository.
+Place the file in `data-raw`.
+Update `data-raw/cabat-dict.R`, adding a new four-line section for your new language,
+following the lines used to add previous languages.
+Run the file and commit the changes to Git.
+Update the languages section in `README.md` to credit the translator.
+Rebuild the R package locally and test that you can use the test with
+your new translations.
+Submit your changes as a merge request.

@@ -1,3 +1,5 @@
+* Added Italian support (thanks Elvira Brattico!).
+
 # mpt 0.10.0
 
 * Added Dutch support.

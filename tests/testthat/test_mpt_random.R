@@ -49,7 +49,6 @@ q <- 1 # number of question
 for (i in sample(1:2, number_items, replace=TRUE)){
   app$expect_ui_text(paste("Question", q, "out of", number_items, "Which version was out of tune? If you don't know, give your best guess! Click here to play First Second"))
   app$click(i)
-  print(paste("answer id =", i))
   q <- q + 1
 }
 app$expect_ui_text("You completed the tuning perception test! Next")

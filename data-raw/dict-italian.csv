@@ -1,0 +1,25 @@
+ID,IT
+AMPT_0001_I_0001_1,"Questo test valuta la tua capacità di percepire la mancanza di intonazione nei brani musicali.\\Verranno riprodotti alcuni frammenti musicali.\\In alcuni frammenti, il cantante sarà **intonato** con la musica di sottofondo, mentre in altre clip il cantante sarà **stonato**.\\Il tuo compito è decidere se il cantante è intonato o stonato.\\Fai clic su 'Continua' per ascoltare alcuni esempi."
+AMPT_0002_I_0001_1,**Esempio - Intonato** \\\\ In questo esempio il cantante è intonato con la musica di sottofondo.
+AMPT_0003_I_0001_1,**Esempio - Stonato** \\\\ In questo esempio il cantante è stonato con la musica di sottofondo.
+AMPT_0004_I_0001_1,"Nel test verranno riprodotte due versioni dello stesso frammento musicale, una dopo l'altra.\\In una versione il cantante sarà **intonato**, e nell'altra versione il cantante sarà **stonato **.\\Il tuo compito è identificare quale versione era **stonata**.\\Fai clic su 'Continua' per provare alcuni esempi."
+AMPT_0005_I_0001_1,**Esempio di domanda 1/2**\\\\Quale versione era **stonata**?
+AMPT_0005_R_0001_1,La prima
+AMPT_0005_R_0002_1,La seconda
+AMPT_0006_I_0001_1,**Sbagliato!**
+AMPT_0007_I_0001_1,**Giusto!**
+AMPT_0008_I_0001_1,**Esempio di domanda 2/2** \\\\ Quale versione era **stonata**?
+AMPT_0009_I_0001_1,**Giusto!**
+AMPT_0010_I_0001_1," Premi 'Indietro' per leggere di nuovo le istruzioni e fare pratica con gli esempi, o premi su 'Continua' per procedere con il test principale."
+AMPT_0011_I_0001_1,"**Stai per iniziare il test principale, nel quale i tuoi risultati saranno registrati.**\\ Buona fortuna!"
+AMPT_0012_I_0001_1,**Domanda {{num_question}} di {{test_length}}**
+AMPT_0013_I_0001_1,"Quale versione era **stonata**? Se non lo sai, prova a fare del tuo meglio!"
+AMPT_0014_I_0001_1,"Hai completato il test percettivo sull'intonazione! Il tuo punteggio finale è riportato in basso, con riferimento alla popolazione generale:"
+AMPT_0015_I_0001_1,Continua
+AMPT_0016_I_0001_1,Indietro
+AMPT_0017_I_0001_1,Hai completato il test percettivo sull'intonazione! 
+enter_p_id,"Per favore, inserisci il tuo codice partecipante."
+results_have_been_saved,I tuoi risultati sono stati salvati.
+you_may_close_browser,Ora puoi chiudere la tua finestra del browser.
+demo_intro,"Benvenuto al **Test percettivo sull'intonazione**!\\Questo test si adatta alle tue prestazioni. Se rispondi bene, ti verranno proposte prove più difficili.\\Di solito questa procedura adattiva è nascosta al partecipante. Per questa dimostrazione, tuttavia, mostreremo il tuo punteggio e il livello di difficoltà corrispondente in ogni prova."
+click_here_to_play,Clicca qui per iniziare
