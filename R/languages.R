@@ -3,5 +3,5 @@
 #' Lists the languages available for MPT implementations.
 #' @export
 mpt_languages <- function() {
-  sort(mpt_dict$languages)
+  c("EN", "DE", "FR", "IT", "RU", "DA", "NL")
 }
