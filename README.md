@@ -103,7 +103,8 @@ and downloading your data.
 For more details on the psychTestR interface, 
 see http://psychtestr.com/.
 
-The MPT currently supports English (EN), French (FR), German (DE), Russian (RU), and Danish (DA).
+The MPT currently supports English (EN), French (FR), German (DE), Russian (RU),
+Danish (DA), and Italian (IT).
 If you are interested in adding a new language, contact us and we can add it for you.
 You can select one of these languages by passing a language code as 
 an argument to `standalone_mpt()`, e.g. `standalone_mpt(languages = "DE")`,
