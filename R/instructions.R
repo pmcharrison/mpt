@@ -1,12 +1,13 @@
 info_page <- function(id) {
-  psychTestR::one_button_page(psychTestR::i18n(id),
+  psychTestR::one_button_page(shiny::p(psychTestR::i18n(id),
+                                       style = "text-align:justify;width:60%;margin-left:20%;margin-right:20%;min-width:400px"),
                               button_text = psychTestR::i18n("AMPT_0015_I_0001_1"))
 }
 
 audio_ex_page <- function(prompt_id, url) {
   psychTestR::audio_NAFC_page(
     label = "ex",
-    prompt = psychTestR::i18n(prompt_id),
+    prompt = shiny::p(psychTestR::i18n(prompt_id)),
     choices = psychTestR::i18n("AMPT_0015_I_0001_1"),
     url = url,
     save_answer = FALSE,
@@ -42,7 +43,7 @@ ask_repeat <- function() {
     choices = c("go_back", "continue"),
     labels = lapply(c("AMPT_0016_I_0001_1", "AMPT_0015_I_0001_1"), psychTestR::i18n),
     save_answer = FALSE,
-    arrange_vertically = TRUE,
+    arrange_vertically = FALSE,
     on_complete = function(state, answer, ...) {
       psychTestR::set_local("do_intro", identical(answer, "go_back"), state)
     }

@@ -96,6 +96,8 @@ get_prompt <- function(item_number, num_items_in_test) {
     ),
     shiny::p(
       psychTestR::i18n("AMPT_0013_I_0001_1")
+      , style = "text-align:justify;width:60%;margin-left:20%;margin-right:20%;min-width:400px"
+
     ))
 }
 

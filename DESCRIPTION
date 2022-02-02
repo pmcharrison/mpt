@@ -1,7 +1,7 @@
 Package: mpt
 Type: Package
 Title: Mistuning Perception Test
-Version: 0.11.0
+Version: 0.11.1
 Author: Peter M. C. Harrison
 Maintainer: Peter M. C. Harrison <pmc.harrison@gmail.com>
 Description: Implementation of the Mistuning Perception Test of Larrouy-Maestri, Harrison, and Mullensiefen (in prep.)
