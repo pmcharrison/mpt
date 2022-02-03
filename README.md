@@ -38,7 +38,7 @@ We are grateful to the following individuals for translating the MPT
 into new languages:
 
 - Pauline Larrouy-Maestri (French)
-- Dania Hollemann, Klaus Frieler, Daniel Müllensiefen (German)
+- Dania Hollemann, Klaus Frieler, Daniel Müllensiefen (German, formal German)
 - Elina Tsigeman and Maxim Likhanov (Russian)
 - Cecilie Møller and Niels Christian-Hansen (Danish)
 - Jochum van 't Hooft (Dutch)
@@ -103,8 +103,8 @@ and downloading your data.
 For more details on the psychTestR interface, 
 see http://psychtestr.com/.
 
-The MPT currently supports English (EN), French (FR), German (DE), Russian (RU),
-Danish (DA), and Italian (IT).
+The MPT currently supports English (EN), French (FR), German (DE),
+formal German (DE_F), Russian (RU), Danish (DA), and Italian (IT).
 If you are interested in adding a new language, contact us and we can add it for you.
 You can select one of these languages by passing a language code as 
 an argument to `standalone_mpt()`, e.g. `standalone_mpt(languages = "DE")`,
@@ -206,7 +206,7 @@ Create a new dictionary for your new language following this format.
 Prepare a merge request for submitting your changes, 
 perhaps using a fork of the original repository.
 Place the file in `data-raw`.
-Update `data-raw/cabat-dict.R`, adding a new four-line section for your new language,
+Update `data-raw/mpt-dict.R`, adding a new four-line section for your new language,
 following the lines used to add previous languages.
 Run the file and commit the changes to Git.
 Update the languages section in `README.md` to credit the translator.

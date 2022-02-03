@@ -1,3 +1,5 @@
+* Added formal German support (thanks Klaus Frieler!).
+
 # mpt 0.11.0
 
 * Added Italian support (thanks Elvira Brattico!).
