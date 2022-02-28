@@ -1,3 +1,5 @@
+* Added Spanish support.
+
 # mpt 0.12.0
 
 * Added formal German support (thanks Klaus Frieler!).

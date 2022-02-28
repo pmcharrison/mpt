@@ -19,6 +19,12 @@ stopifnot(!anyDuplicated(input$key),
           all(input$key == italian$key))
 input$IT <- italian$IT
 
+spanish <- read.csv("data-raw/dict-spanish.csv", stringsAsFactors = FALSE)
+names(spanish)[[1]] <- "key"
+stopifnot(!anyDuplicated(input$key),
+          all(input$key == spanish$key))
+input$ES <- spanish$ES
+
 formal_german <- read.csv("data-raw/dict-de_formal.csv", stringsAsFactors = FALSE)
 names(formal_german)[[1]] <- "key"
 stopifnot(!anyDuplicated(input$key),

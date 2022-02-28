@@ -1,0 +1,25 @@
+ID,ES
+AMPT_0001_I_0001_1,"Este test evalúa tu capacidad para percibir la falta de entonación en piezas musicales. \\ Se reproducirán algunos fragmentos musicales. \\ En algunos fragmentos, el cantante **afinará** con la base musical, mientras que en otros clips el cantante **desafinará**. \\ Tu tarea es decidir si el cantante está afinado o desafinado. \\ Haz clic en 'Continuar' para escuchar algunos ejemplos."
+AMPT_0002_I_0001_1,"**Ejemplo - Afinado** \\\\ En este ejemplo, el cantante está afinado con la base musical."
+AMPT_0003_I_0001_1,"**Ejemplo - Desafinado** \\\\ En este ejemplo, el cantante desafina con la base musical."
+AMPT_0004_I_0001_1,"En la prueba se reproducirán dos versiones del mismo fragmento musical, una tras la otra. \\ En una versión el cantante estará **afinado**, y en la otra versión el cantante estará **desafinado**.\\ Su tarea es identificar qué versión estaba **desafinada**. \\ Haz clic en 'Continuar' para probar algunos ejemplos."
+AMPT_0005_I_0001_1,**Ejemplo de pregunta 1/2** \\\\ ¿Qué versión estaba **desafinada**?
+AMPT_0005_R_0001_1,La primera
+AMPT_0005_R_0002_1,La segunda
+AMPT_0006_I_0001_1,**¡Incorrecto!**
+AMPT_0007_I_0001_1,**¡Correcto!**
+AMPT_0008_I_0001_1,**Ejemplo de pregunta 2/2** \\\\ ¿Qué versión estaba **desafinada**?
+AMPT_0009_I_0001_1,**¡Correcto!**
+AMPT_0010_I_0001_1,"Pulsa 'Atrás' para volver a leer las instrucciones y practicar con los ejemplos, o pulsa 'Continuar' para seguir con la prueba principal."
+AMPT_0011_I_0001_1,"**Vamos a comenzar la prueba principal, en la que se registrarán tus resultados.** \\ ¡Buena suerte!"
+AMPT_0012_I_0001_1,**Pregunta {{num_question}} de {{test_length}}**
+AMPT_0013_I_0001_1,"¿Qué versión estaba **desafinada**? Si no lo sabes, ¡haz tu mejor intento!"
+AMPT_0014_I_0001_1,"¡Has completado el test de percepción de la afinación! Tu puntuación final se informa a continuación, con referencia a la población general:"
+AMPT_0015_I_0001_1,Continuar
+AMPT_0016_I_0001_1,Atrás
+AMPT_0017_I_0001_1,¡Has completado el test de percepción de la afinación!
+enter_p_id,"Por favor, inserta tu código de participante"
+results_have_been_saved,Tus resultados han sido guardados
+you_may_close_browser,Ahora puedes cerrar la ventana de tu navegador
+demo_intro,"¡Bienvenido/a a la **Prueba de percepción de la afinación**!\\ Esta prueba se adapta a tu nivel de habilidad. Si respondes bien, se te ofrecerán pruebas más difíciles.\\ Por lo general, este procedimiento de adaptación está oculto para el participante. Para esta demostración, sin embargo, te mostraremos tu puntuación y el nivel de dificultad correspondiente en cada prueba."
+click_here_to_play,Haz clic para empezar
