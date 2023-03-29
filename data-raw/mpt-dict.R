@@ -31,5 +31,11 @@ stopifnot(!anyDuplicated(input$key),
           all(input$key == formal_german$key))
 input$DE_F <- formal_german$DE_F
 
+latvian <- read.csv("data-raw/dict-latvian.csv", stringsAsFactors = FALSE)
+names(latvian)[[1]] <- "key"
+stopifnot(!anyDuplicated(input$key),
+          all(input$key == latvian$key))
+input$LV <- latvian$LV
+
 mpt_dict <- psychTestR::i18n_dict$new(input)
 usethis::use_data(mpt_dict, overwrite = TRUE)
