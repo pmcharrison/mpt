@@ -4,7 +4,7 @@
 
 The MPT is an adaptive test of mistuning perception abilities.
 
-We invite you to try the MPT [here!](http://shiny.pmcharrison.com/mpt-demo)
+We invite you to try the MPT [here!](https://shiny.gold-msi.org/longgold_demo/)
 
 Want to use this test in your own online study, but don't want to go to the trouble of setting up your own 
 web server? You are invited to host your study on the DOTS testing server of the 
