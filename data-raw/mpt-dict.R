@@ -37,5 +37,10 @@ stopifnot(!anyDuplicated(input$key),
           all(input$key == latvian$key))
 input$LV <- latvian$LV
 
+portuguese <- read.csv("data-raw/dict-portuguese.csv", stringsAsFactors = FALSE, encoding = "utf-8")
+names(portuguese)[[1]] <- "key"
+stopifnot(all(input$key == portuguese$key))
+input$PT <- portuguese$PT
+
 mpt_dict <- psychTestR::i18n_dict$new(input)
 usethis::use_data(mpt_dict, overwrite = TRUE)

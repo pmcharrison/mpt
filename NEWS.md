@@ -1,3 +1,5 @@
+* Added Portuguese support (thanks Rui Sousa!)
+
 # mpt 0.14.0
 
 * Added Latvian support.

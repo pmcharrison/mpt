@@ -1,0 +1,25 @@
+ID,EN,PT
+AMPT_0001_I_0001_1,"This test assesses your ability to perceive mistuning in pieces of music.\\You will be played some music clips.\\In some clips, the vocalist will be **in tune** with the background music, but in other clips the vocalist will be **out of tune**.\\Your task is to decide whether the vocalist is in tune or out of tune.\\Click 'Continue' to hear some examples.","Este teste avalia a tua capacidade para perceber a desafinação em peças musicais.\\Vais ouvir alguns excertos.\\Em alguns deles, o cantor vai estar **afinado** com o acompanhamento musical, mas noutros excertos o cantor vai estar **desafinado**.\\A tua tarefa é decidir se o cantor está afinado ou desafinado.\\Clica em 'Seguinte' para ouvires alguns exemplos."
+AMPT_0002_I_0001_1,**Example - in tune**\\\\In this example the vocalist is in tune with the background music.,"**Exemplo - afinado**\\\\Neste exemplo, o cantor está afinado com o acompanhamento musical."
+AMPT_0003_I_0001_1,**Example - out of tune**\\\\In this example the vocalist is out of tune with the background music.,"**Exemplo - desafinado**\\\\Neste exemplo, o cantor está desafinado com o acompanhamento musical."
+AMPT_0004_I_0001_1,"In the test you will be played two versions of the same music clip, one after the other.\\In one version the vocalist will be **in tune**, and in the other version the vocalist will be **out of tune**.\\Your task is to identify which version was **out of tune**.\\Click 'Continue' to try some examples.","No teste, vais ouvir duas versões da mesma música, uma a seguir à outra.\\Numa das versões o cantor está **afinado** e na outra está **desafinado**.\\A tua tarefa é identificar em qual das versões o cantor está **desafinado**.\\Clica em 'Seguinte' para praticares com alguns exemplos."
+AMPT_0005_I_0001_1,**Example question 1/2**\\\\Which version was **out of tune**?,**Exemplo questão 1/2**\\\\Qual das versões estava **desafinada**?
+AMPT_0005_R_0001_1,First,Primeira
+AMPT_0005_R_0002_1,Second,Segunda
+AMPT_0006_I_0001_1,**Incorrect!**,**Incorreto!**
+AMPT_0007_I_0001_1,**Correct!**,**Correto!**
+AMPT_0008_I_0001_1,**Example question 2/2**\\\\Which version was **out of tune**?,**Exemplo questão 2/2**\\\\Qual das versões estava **desafinada**?
+AMPT_0009_I_0001_1,**Correct!**,**Correto!**
+AMPT_0010_I_0001_1,"Press 'Go back' to read the instructions and try the examples again, or press 'Continue' to continue to the main test.",Clica em 'Voltar' para leres as instruções e praticares os exemplos novamente ou em 'Seguinte' para continuares o teste.
+AMPT_0011_I_0001_1,"**You are about to start the main test, where your results will be recorded.**\\Good luck!","**Vais agora começar o teste, os teus resultados serão guardados.\\Boa sorte!**"
+AMPT_0012_I_0001_1,**Question {{num_question}} out of {{test_length}}**,**Questão {{num_question}} de {{test_length}}**
+AMPT_0013_I_0001_1,"Which version was **out of tune**?\\If you don't know, give your best guess!","Qual das versões estava **desafinada**?\\Se não souberes, dá o teu melhor palpite!"
+AMPT_0014_I_0001_1,"You completed the tuning perception test!\\Your final score is plotted below, with reference to the general population:","Terminaste o teste de perceção da afinação!\\Podes ver o teu resultado, com referência à população em geral:"
+AMPT_0015_I_0001_1,Continue,Continuar
+AMPT_0016_I_0001_1,Go back,Voltar atrás
+AMPT_0017_I_0001_1,You completed the tuning perception test!,Completaste o teste de perceção da afinação!
+enter_p_id,Please enter your participant ID.,"Por favor, insere o teu código de participante."
+results_have_been_saved,Your results have been saved.,Os teus resultados foram guardados.
+you_may_close_browser,You may now close the browser window.,Podes fechar a janela do teu navegador.
+demo_intro,"Welcome to the **Mistuning Perception Test**!\\This test adapts to your performance. If you do well, you will be given harder items.\\Usually this adaptive procedure is hidden from the participant. For this demonstration, however, we will show your running ability score and corresponding difficulty level on each trial.","Benvindo ao **Teste de Perceção da Afinação**!\\Este teste adapta-se ao teu desempenho. Se responderes corretamente, a dificuldade do teste aumentará.\\Normalmente, este procedimento adaptativo é ocultado ao participante. No entanto, nesta demonstração, vais poder ver a tua pontuação e o nível de dificuldade de cada questão."
+click_here_to_play,Click here to play,Clica aqui para começares
