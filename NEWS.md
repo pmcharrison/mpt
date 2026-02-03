@@ -1,3 +1,5 @@
+* Portuguese patches
+
 # mpt 0.15.0
 
 * Added Portuguese support (thanks Rui Sousa!)
