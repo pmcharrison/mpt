@@ -1,3 +1,6 @@
+* Portuguese patches.
+* Info page translation patches.
+
 # mpt 0.15.1
 
 * Portuguese patches
